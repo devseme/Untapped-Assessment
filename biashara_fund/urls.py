@@ -22,7 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # re_path(r'^$', views.home, name='index'),
     re_path('register/',views.register_page,name= 'register'),
-    re_path('login/',views.login_page,name= 'register')
+    re_path('login/',views.login_page,name= 'login')
 
     
 ]
