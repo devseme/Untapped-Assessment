@@ -15,7 +15,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-
+from django.urls import include, re_path
+from biashara import views
+from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # re_path(r'^$', views.home, name='index'),
+    re_path('register/',views.register_page,name= 'register'),
+    re_path('login/',views.login_page,name= 'register')
+
+    
 ]
