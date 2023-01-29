@@ -2,7 +2,8 @@ from django.contrib import admin
 from .models import *
 
 # Register your models here.
-admin.site.register(Profile)
+@admin.register(Borrower)   
+class UserAdmin(admin.ModelAdmin):
+    list_display = ['name','email','phone_number']    
 admin.site.register(Business)
-admin.site.register(Amount)
-admin.site.register(Business_sector)
+admin.site.register(Loan)

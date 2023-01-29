@@ -1,4 +1,4 @@
-#!/home/casterly-rock/Internships/Untapped/virtual/bin/python3.8
+#!/home/casterly-rock/Internships/Untapped/virtual/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
