@@ -93,9 +93,9 @@ db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(db_from_env)
 
 
-ALLOWED_HOSTS=['127.0.0.1','http://localhost:4200']
+ALLOWED_HOSTS=['biasharafund.up.railway.app','127.0.0.1', 'https://biasharafund.up.railway.app/admin','http://localhost:4200']
 
-# CSRF_TRUSTED_ORIGINS = ['https://ahericaredbb.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://biasharafund.up.railway.app']
 
 
 # Password validation
