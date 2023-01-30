@@ -11,14 +11,14 @@ admin in the standard Django Admin tool.
 https://biasharafund.up.railway.app/admin/
 
 ##### Testing the application 
-username:admin1
-password:12345
+*username:admin1
+*password:12345
 
 ## Endpoints URLs 
 * https://biasharafund.up.railway.app/all_borrowers/
 * https://biasharafund.up.railway.app/single_borrower/
 * https://biasharafund.up.railway.app/all_business/
-* https://biasharafund.up.railway.appsingle_business/
+* https://biasharafund.up.railway.app/single_business/
 * https://biasharafund.up.railway.app/all_loans/
 * https://biasharafund.up.railway.app/single_loan/
 
