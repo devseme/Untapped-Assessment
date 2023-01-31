@@ -16,10 +16,10 @@ https://biasharafund.up.railway.app/admin/
 
 ## Endpoints URLs 
 * https://biasharafund.up.railway.app/all_borrowers/
-* https://biasharafund.up.railway.app/single_borrower/
+* https://biasharafund.up.railway.app/single_borrower/id/
 * https://biasharafund.up.railway.app/all_business/
-* https://biasharafund.up.railway.app/single_business/
+* https://biasharafund.up.railway.app/single_business//id
 * https://biasharafund.up.railway.app/all_loans/
-* https://biasharafund.up.railway.app/single_loan/
+* https://biasharafund.up.railway.app/single_loan/id/
 
 
